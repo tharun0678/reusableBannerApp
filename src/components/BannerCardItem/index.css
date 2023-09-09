@@ -1,0 +1,113 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+li {
+  list-style-type: none;
+}
+.heading-element {
+  color: #326a9d;
+}
+.content {
+  color: #64748b;
+}
+.butn {
+  color: #326a9d;
+  border-width: 2px;
+  border-color: #326a9d;
+  border-radius: 5px;
+  padding: 7px;
+  border-style: solid;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 576px), (max-width: 576px) {
+  .card-1 {
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #cbced2;
+    border-style: solid;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .card-2 {
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #cbced2;
+    border-style: solid;
+    margin-bottom: 15px;
+    padding: 15px;
+    flex-direction: column;
+  }
+  .card-3 {
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #cbced2;
+    border-style: solid;
+    margin-bottom: 15px;
+    padding: 15px;
+    flex-direction: column;
+  }
+}
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+.heading-element {
+  color: #326a9d;
+}
+.content {
+  color: #64748b;
+}
+.butn {
+  color: #326a9d;
+  border-width: 2px;
+  border-color: #326a9d;
+  border-radius: 5px;
+  padding: 7px;
+  border-style: solid;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .card-2 {
+    align-items: flex-end;
+    text-align: left;
+  }
+}
